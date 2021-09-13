@@ -22,13 +22,14 @@ jobs:
 
   cloneRepo:
     resources:
-      instance-type: C5 #C3
+      instance-type: C5 #C3 tmp as C3s go to pending
     outputs:
       repo:
         type: volume
     uses: git-checkout@v1
     with:
-      url: https://github.com/nmb-paperspace/NLP-Text-Generation
+      #url: https://github.com/nmb-paperspace/NLP-Text-Generation
+      url: https://github.com/gradient-ai/NLP-Text-Generation
 
   generateText:
     resources:
