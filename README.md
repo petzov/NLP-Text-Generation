@@ -1,6 +1,6 @@
 # NLP-Text-Generation
 
-**NOTE**: Final copy of this is to be put in https://github.com/gradient-ai/NLP-Text-Generation ; this one in nmb-paperspace is not the public one to be run as a tutorial.
+**NOTE**: This repo is **in progress**, not yet ready to be run by users.
 
 Last updated: Sep 13th 2021
 
