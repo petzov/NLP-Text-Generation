@@ -27,7 +27,10 @@ jobs:
         type: volume
     uses: git-checkout@v1
     with:
-      url: https://github.com/gradient-ai/NLP-Text-Generation
+      # url: https://github.com/gradient-ai/NLP-Text-Generation
+      url: context.event.github.url
+      ref: context.event.github.ref
+    
 
   generateText:
     resources:
