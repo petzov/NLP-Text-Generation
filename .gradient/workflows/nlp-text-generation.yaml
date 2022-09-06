@@ -10,7 +10,7 @@
 # See the Gradient documentation page for more details:
 # https://docs.paperspace.com/gradient/get-started/tutorials-list/example-workflow-nlp-text-generator
 #
-# Last updated: Nov 03rd 2021
+# Last updated: Sep 06rd 2022
 
 on:
   github:
